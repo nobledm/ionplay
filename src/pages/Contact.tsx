@@ -11,11 +11,6 @@ import "./Contact.css";
 const Contact: React.FC = () => {
   return (
     <IonPage>
-      <IonHeader>
-        <IonToolbar>
-          <IonTitle>Tab 1</IonTitle>
-        </IonToolbar>
-      </IonHeader>
       <IonContent>
         <IonHeader collapse="condense">
           <IonToolbar>

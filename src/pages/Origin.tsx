@@ -67,11 +67,14 @@ const Origin: React.FC = () => {
                 the Rolleiflex was supplemented with a variety of models. The
                 company expanded its production facilities and product range at
                 the end of the 1960s beyond what a small company like Rollei
-                could manage. In 2006, the headquarters of Rollei GmbH were
-                moved to Berlin while production was transferred to Rollei
-                Produktion GmbH, currently Franke &amp; Heidecke GmbH, in
-                Braunschweig. The company underwent more radical restructuring
-                in 2007/08.
+                could manage.
+              </p>
+
+              <p>
+                In 2006, the headquarters of Rollei GmbH were moved to Berlin
+                while production was transferred to Rollei Produktion GmbH,
+                currently Franke &amp; Heidecke GmbH, in Braunschweig. The
+                company underwent more radical restructuring in 2007/08.
               </p>
             </IonCol>
           </IonRow>
