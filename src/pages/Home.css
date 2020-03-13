@@ -1,3 +1,36 @@
-ion-content ion-toolbar {
-  --background: translucent;
+/* GLOBAL */
+ion-tab-bar,
+ion-tab-button {
+  background-color: var(--ion-color-ocean-shade);
+}
+
+ion-tab-button.tab-selected {
+  background-color: var(--ion-color-ocean-tint);
+}
+
+ion-content {
+  --background: #cfcfcf;
+}
+
+.dk-orange {
+  color: var(--ion-color-warning-shade);
+}
+
+ion-content .mb-1 {
+  margin-bottom: 1.5rem;
+}
+
+/* HOME SPECIFIC */
+ion-content.bg-img {
+  --background: url(/assets/img/rollei-bg.jpg) no-repeat -100px -50px fixed,
+    #cfcfcf;
+}
+
+.fab-container {
+  position: relative;
+  display: block;
+  height: 13.125rem;
+  width: 65%;
+  margin-left: auto;
+  margin-bottom: 1.5rem;
 }

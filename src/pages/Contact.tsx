@@ -6,20 +6,20 @@ import {
   IonTitle,
   IonToolbar
 } from "@ionic/react";
-import "./Models.css";
+import "./Contact.css";
 
-const Models: React.FC = () => {
+const Contact: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Tab 3</IonTitle>
+          <IonTitle>Tab 1</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent>
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">Tab 3</IonTitle>
+            <IonTitle size="large">Tab 1</IonTitle>
           </IonToolbar>
         </IonHeader>
       </IonContent>
@@ -27,4 +27,4 @@ const Models: React.FC = () => {
   );
 };
 
-export default Models;
+export default Contact;

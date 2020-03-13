@@ -13,11 +13,13 @@ import { IonReactRouter } from "@ionic/react-router";
 import {
   apertureOutline,
   cameraOutline,
-  peopleCircleOutline
+  peopleCircleOutline,
+  helpCircleOutline
 } from "ionicons/icons";
 import Home from "./pages/Home";
 import Origin from "./pages/Origin";
 import Models from "./pages/Models";
+import Contact from "./pages/Contact";
 
 /* Core CSS required for Ionic components to work properly */
 import "@ionic/react/css/core.css";
@@ -46,20 +48,29 @@ const App: React.FC = () => (
           <Route path="/home" component={Home} exact={true} />
           <Route path="/origin" component={Origin} exact={true} />
           <Route path="/models" component={Models} />
+          <Route path="/contact" component={Contact} />
           <Route path="/" render={() => <Redirect to="/home" />} exact={true} />
         </IonRouterOutlet>
-        <IonTabBar slot="bottom">
+
+        <IonTabBar slot="bottom" color="ocean">
           <IonTabButton tab="home" href="/home">
             <IonIcon icon={cameraOutline} />
-            <IonLabel>The Rollie</IonLabel>
+            <IonLabel>The Rollei</IonLabel>
           </IonTabButton>
+
           <IonTabButton tab="makers" href="/origin">
             <IonIcon icon={peopleCircleOutline} />
             <IonLabel>Makers</IonLabel>
           </IonTabButton>
+
           <IonTabButton tab="models" href="/models">
             <IonIcon icon={apertureOutline} />
             <IonLabel>Models</IonLabel>
+          </IonTabButton>
+
+          <IonTabButton tab="contact" href="/contact">
+            <IonIcon icon={helpCircleOutline} />
+            <IonLabel>Enquiries</IonLabel>
           </IonTabButton>
         </IonTabBar>
       </IonTabs>
