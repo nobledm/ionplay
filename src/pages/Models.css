@@ -1,3 +1,18 @@
-ion-content {
-  /* --background: #cfcfcf; */
+.popHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popTitle {
+  display: inline-block;
+  padding: 0 0.5rem;
+}
+
+.popContent {
+  padding: 0.5rem;
+  font-size: 14px;
+}
+
+.labelTitle {
+  color: var(--ion-color-ocean-shade);
 }
