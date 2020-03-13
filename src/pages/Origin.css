@@ -1,3 +1,16 @@
-ion-content {
-  /* --background: #cfcfcf; */
+ion-grid {
+  background-color: #fff;
+  line-height: 22.5px;
+}
+
+ion-col .heading {
+  display: block;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--ion-color-medium-shade);
+}
+
+ion-col .note {
+  display: block;
+  font-size: 12px;
 }
