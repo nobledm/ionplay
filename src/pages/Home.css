@@ -16,6 +16,10 @@ ion-content {
   color: var(--ion-color-warning-shade);
 }
 
+.oceanTint {
+  color: var(--ion-color-ocean-tint);
+}
+
 ion-content .mb-1 {
   margin-bottom: 1.5rem;
 }

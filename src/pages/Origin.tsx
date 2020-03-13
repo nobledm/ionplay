@@ -46,7 +46,11 @@ const Origin: React.FC = () => {
             </IonCol>
             <IonCol size="5">
               <span className="heading">Website</span>
-              <a href="http://www.rollei.com/" target="_blank">
+              <a
+                className="oceanTint"
+                href="http://www.rollei.com/"
+                target="_blank"
+              >
                 www.rollei.com
               </a>
             </IonCol>

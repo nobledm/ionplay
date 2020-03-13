@@ -1,3 +1,13 @@
-ion-content {
-  /* --background: #cfcfcf; */
+ion-card ion-label:first-child {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+ion-label .signUp {
+  margin-left: 0.5rem;
+  font-size: 14px;
+}
+
+ion-textarea {
+  font-size: 14px;
 }
